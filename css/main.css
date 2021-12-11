@@ -1,0 +1,348 @@
+/* This created and styled by TONY NDEREVA MALUKI :Liked my work? Business enquiries call: +254 714444593 */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* clearfixes */
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+
+/* custom css */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+body {
+  background-image: url(../images/login.jpg);
+  background-size: auto 100%;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+.login:after {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.login-wrap {
+  display: table;
+  vertical-align: middle;
+  height: 100vh;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.login-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.login-mid {
+  padding: 80px 40px;
+  background: #ffffff;
+  position: relative;
+  z-index: 9;
+  width: 768px;
+  border-radius: 25px;
+}
+.logo {
+  width: 50%;
+}
+.login-mid form {
+  width: 40%;
+  position: relative;
+}
+.login-mid form::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  left: -60px;
+  height: 100%;
+  background: #bbb;
+}
+.form-group label {
+  display: block;
+}
+.form-group input {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  margin: 0px 0 20px 0;
+  font-size: 1.2em;
+  text-indent: 15px;
+  border: 1px solid #bbb;
+  color: rgb(36, 32, 32);
+}
+.form-group input:hover {
+  border: 1px solid grey;
+}
+
+.pattern {
+  background-image: url(../images/bottom.png);
+  background-size: cover;
+  height: 180px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+input {
+  /* padding: 12px; */
+  /* margin: 0px 0 20px 0; */
+}
+.btn {
+  background: #0045b5;
+  border: 0;
+  color: white;
+  width: 300px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease 0s;
+  padding: 15px 0;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  background-color: #c63552;
+  box-shadow: 0px 15px 20px rgba(198, 53, 82, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.a-tags {
+  display: block;
+  color: grey;
+  padding: 1px;
+  text-transform: capitalize;
+  font-size: 1.2em;
+}
+
+.logo h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.5em;
+  line-height: 87.2%;
+  /* or 44px */
+  display: flex;
+  align-items: center;
+  font-family: "Russo One", sans-serif;
+  margin-bottom: 30px;
+}
+.logo h2 {
+  font-family: Redressed;
+  font-size: 2.5em;
+  /* or 31px */
+  color: rgba(31, 30, 30, 0.67);
+}
+.blue {
+  color: #044bc1;
+}
+.red {
+  color: #c63552;
+}
+
+@media only screen and (max-width: 900px) {
+  html,
+  body {
+    height: 100vh;
+    width: 100vw;
+    background: #fafafa;
+    /* ba */
+    overflow: hidden;
+  }
+  .login-mid {
+    max-width: 96%;
+    border-radius: 0;
+    width: 100%;
+    padding: 80px 10px;
+  }
+  .logo {
+    width: 100%;
+  }
+  .login-mid form {
+    width: 100%;
+  }
+  .login-wrap {
+    max-width: 96%;
+  }
+  body,
+  .pattern {
+    background-image: none;
+  }
+  .login:after {
+    background: #eee;
+  }
+  .logo h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-align: center;
+    display: block;
+  }
+  .logo h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  .btn {
+    /* margin: 0 auto; */
+    display: block;
+    margin: 0 auto 50px;
+  }
+  .a-tags {
+    text-align: center;
+  }
+
+  .form-group input {
+    color: black;
+  }
+}
